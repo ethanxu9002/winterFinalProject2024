@@ -2,7 +2,11 @@
 #display-El{
     font-family:monospace;
     overflow-wrap:anywhere;
-    line-height:1.5ch;
-    font-size:25px;
-    width:10ch;
+    line-height:1.6ch;
+    font-size:30px;
+    width:14ch;
+}
+
+button{
+    font-size:30px;
 }
