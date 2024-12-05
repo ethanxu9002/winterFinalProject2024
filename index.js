@@ -2,6 +2,14 @@ let displayList = []
 let width = 20
 let height = 10
 
+/*█
+document.addEventListener("keypress", function(event) {
+  if (event.keyCode == 13) {
+    alert('hi.');
+  }
+});
+*/
+
 let display = document.getElementById("display-El")
 
 function setup() {
