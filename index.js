@@ -40,10 +40,35 @@ function setup() {
     }
 }
 
+function isNotZero(value) {
+    return value != 0
+}
+
 function placeX() {
     pendPlace=prompt("Which row?")
-    /*columnMax[pendPlace - 1] <- come back to this*/
-
+    if (columnMax[pendPlace - 1] > height) {
+        //pass
+    } else if (pendPlace < width) {
+        //pass
+    } else if (pendPlace > width) {
+        //pass
+    } else {
+        everything[pendPlace].splice(columnMax[pendPlace], 1, "X")
+        columnMax[pendPlace]++
+    }
+}
+function placeO() {
+    pendPlace=prompt("Which row?")
+    if (columnMax[pendPlace - 1] > height) {
+        //pass
+    } else if (pendPlace < width) {
+        //pass
+    } else if (pendPlace > width) {
+        //pass
+    } else {
+        everything[pendPlace].splice(columnMax[pendPlace], 1, "O")
+        columnMax[pendPlace]++
+    }
 }
 
 setup()
