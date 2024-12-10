@@ -1,12 +1,20 @@
-
-#display-El{
+* {
     font-family:monospace;
-    overflow-wrap:anywhere;
-    line-height:1.6ch;
-    font-size:30px;
-    width:14ch;
 }
 
-button{
+#board > button {
     font-size:30px;
+    width:1ch;
+    overflow-wrap:anywhere;
+    padding:1ch 2ch 1ch 1ch;
+}
+
+#board > p {
+    font-size:20px;
+}
+
+
+#debug {
+    width:12ch;
+    overflow-wrap:anywhere;
 }

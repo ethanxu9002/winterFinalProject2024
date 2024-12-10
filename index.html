@@ -10,10 +10,19 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <p id="display-El"></p>
+    
+    <div id="board">
+        <button id="b1" onclick="place(0)">......</button>
+        <button id="b2" onclick="place(1)">......</button>
+        <button id="b3" onclick="place(2)">......</button>
+        <button id="b4" onclick="place(3)">......</button>
+        <button id="b5" onclick="place(4)">......</button>
+        <button id="b6" onclick="place(5)">......</button>
+        <button id="b7" onclick="place(6)">......</button>
+        <p id="turn-display" onclick="switchTurn()"> is placing</p>
+        <p id="debug"></p>
+    </div>
     <script src="index.js"></script>
-    <button onclick="placeX()">Place X</button>
-    <button onclick="placeY()">Place O</button>
 </body>
 </html>
 
