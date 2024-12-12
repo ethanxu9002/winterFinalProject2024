@@ -7,6 +7,8 @@
     width:1ch;
     overflow-wrap:anywhere;
     padding:1ch 2ch 1ch 1ch;
+    background:white;
+    border-width:0px 2px 0px 2px;
 }
 
 #board > p {

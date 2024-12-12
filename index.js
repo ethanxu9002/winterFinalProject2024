@@ -11,6 +11,7 @@ let button3 = document.getElementById("b3")
 let button4 = document.getElementById("b4")
 let button5 = document.getElementById("b5")
 let button6 = document.getElementById("b6")
+let button7 = document.getElementById("b7")
 
 function setup() {
     let setupAssist = []
@@ -61,6 +62,7 @@ function place(row) {
     button4.innerText = boardState[3].toReversed().join("")
     button5.innerText = boardState[4].toReversed().join("")
     button6.innerText = boardState[5].toReversed().join("")
+    button7.innerText = boardState[6].toReversed().join("")
 
     //debug.innerText = boardState + "|" + columnMaxes
 }
